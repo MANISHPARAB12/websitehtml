@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+    <style>
+form {
+  border: 2px solid black;
+  height: ;
+  width: 350px;
+  margin-top: 14%;
+  background-color: rgb(255, 255, 255,0.3);
+  margin-left: 38%;
+  
+  text-align: center;
+}
+body{
+    background-image: url(pexels-photo-531880.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+button:hover{
+       color:red;
+}
+    </style>
+</head>
+<body>
+
+
+
+    
+<form action="/submit_signup" method="post" >
+    <h2>Signup Form</h2>
+ <div class="container">
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+  <br><br>
+    <label for="email"><b>Email Address</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+<br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<br><br>
+    <label for="psw-repeat"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+<br><br>
+ </div>
+ <button type="submit" class="registerbtn">Signup</button>
+<p>Already have an account? <a href="login.html">Login</a></p>
+</form>
+
+</body>
+</html>
